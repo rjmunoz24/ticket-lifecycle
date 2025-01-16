@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+For this project, I used a persona named Karen to submit a support ticket through the end-user portal at localhost/osticket, while accessing the admin and analyst interface via localhost/osticket/scp/login.php. To manage and execute the project, I utilized Azure to create a resource group and set up a virtual machine, using remote desktop to interact with the system. During the investigation, I discovered that a recent update was causing an issue with the online banking system. By uninstalling the update and rolling back the system to its previous state, I was able to resolve the problem and restore normal operation.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -28,7 +28,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <img src="https://i.imgur.com/JumCd0v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Karen submitted a ticket for online banking, but no one had access. Support tech John reviewed the issue and escalated it, realizing it was more serious. He reassigned the ticket to Jane, the Sev-A lead, and added notes in the comments to keep her informed.
 </p>
 <br />
 
@@ -36,7 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/INUpZAv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Logged in as Jane in osTicket. She suspects the issue may be linked to recent updates. "We tested them thoroughly, but I'll investigate further and roll them back if I find they’re the cause."
 </p>
 <br />
 
@@ -44,6 +44,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/FE9Ggbi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To resolve the issue, Jane accessed the backend and checked the online banking system. Jane identified that a recent update was the cause, so she uninstalled it, rolled back the system, and the problem was fixed.
 </p>
 <br />
