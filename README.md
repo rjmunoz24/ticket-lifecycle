@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-For this project, I used a persona named Karen to submit a support ticket through the end-user portal at localhost/osticket, while accessing the admin and analyst interface via localhost/osticket/scp/login.php. To manage and execute the project, I utilized Azure to create a resource group and set up a virtual machine, using remote desktop to interact with the system. During the investigation, I discovered that a recent update was causing an issue with the online banking system. By uninstalling the update and rolling back the system to its previous state, I was able to resolve the problem and restore normal operation.<br />
+For this project, I used a persona named Karen to submit a support ticket through the end-user portal at localhost/osticket, while accessing the admin and analyst interface via localhost/osticket/scp/login.php. To manage and execute the project, I utilized Azure to create and set up a virtual machine, using remote desktop to interact with the system. During the investigation, I discovered that a recent update was causing an issue with the online banking system. By uninstalling the update and rolling back the system to its previous state, I was able to resolve the problem and restore normal operation.<br />
 
 <h2>Environments and Technologies Used</h2>
 
